@@ -74,7 +74,7 @@ void loop() {
   brightness = brightness + fadeAmount; 
 
   // Check the loop number
-  if (brightness == 255){
+  if (brightness == 260){
     loop_count = loop_count+1;
     brightness = 0;
     analogWrite(ledPin, brightness);
